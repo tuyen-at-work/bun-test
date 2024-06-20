@@ -30,8 +30,10 @@ jobs:
             os: ubuntu-latest
           - target: x86_64-apple-darwin
             os: macos-latest
-          - target: x86_64-pc-windows-msvc
+          - target: x86_64-pc-windows-msvc-latest
             os: windows-latest
+          - target: x86_64-pc-windows-msvc-2019
+            os: windows-2019
     steps:
       - uses: actions/checkout@master
         with:
