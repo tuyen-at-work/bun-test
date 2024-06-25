@@ -9,12 +9,12 @@ interface Redirect {
 const cases: Redirect[] = [
   {
     old: 'https://kfwt02aap8ru8pinte.dxcloud.episerver.net/en/283661-query-parmaters',
-    new: 'https://kfwt02aap8ru8pinte.dxcloud.episerver.net/en/dung-block-test',
+    new: 'https://kfwt02aap8ru8pinte.dxcloud.episerver.net:443/en/dung-block-test',
     permanent: true,
   },
   {
     old: 'https://kfwt02aap8ru8pinte.dxcloud.episerver.net/globalassets/hanh-qa-redirect/',
-    new: 'https://kfwt02aap8ru8pinte.dxcloud.episerver.net/globalassets/ha-noi---qa/hanh/',
+    new: '/globalassets/ha-noi---qa/hanh/',
     permanent: false,
   },
 ];
