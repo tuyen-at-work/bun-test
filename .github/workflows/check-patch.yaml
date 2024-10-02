@@ -50,3 +50,5 @@ jobs:
       - name: Bun Patch 🛎️
         run: |
           bun patch oauth4webapi@2.17.0
+          echo 'test' > node_modules/oauth4webapi/build/index.js
+          bun patch --commit 'node_modules/oauth4webapi'
